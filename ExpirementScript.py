@@ -17,7 +17,7 @@ def preprocess_medline():
 
             #Write abstracts to new file line by line in a contiguous text.
             for sentence in tokenized_abstract:
-                processed_text.write(sentence + '\n')
+                processed_text.write(sentence.encode('utf') + '\n')
 
             #Add an end of document token
             processed_text.write('<eod>.\n')
