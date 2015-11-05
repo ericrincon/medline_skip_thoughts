@@ -28,6 +28,3 @@ def main():
 
 if __name__ == '__main__':
     main()
-
-    /home1/03186/ericr/code/skip_thought_research/medline_skip_thoughts
-    ExpirementScript.py
